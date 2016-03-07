@@ -1,0 +1,15 @@
+{
+    "name": "mmikkel/stringy-craft",
+    "description": "Craft wrapper foCraft wrapper for Stringy – a string manipulation library with multibyte support",
+    "type": "craft-plugin",
+    "require": {
+        "danielstjules/stringy": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mats Mikkel Rummelhoff",
+            "email": "mail@mmikkel.no"
+        }
+    ]
+}
