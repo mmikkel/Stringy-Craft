@@ -14,7 +14,7 @@
 {{ entry.title|stringy('shuffle') }}
 {{ entry.body|stringy('truncate', 50, '...') }}
 {{ tagline|stringy('lines')|first }}
-{{ someVar|string('isJson') ? 'I can haz JSON!' }}
+{{ someVar|stringy('isJson') ? 'I can haz JSON!' }}
 ```
 
 Please see the docs for [Stringy](https://github.com/danielstjules/Stringy) for all available methods and parameters.  
