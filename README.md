@@ -13,6 +13,7 @@
 ```jinja
 {{ entry.title|stringy('shuffle') }}
 {{ entry.body|stringy('truncate', 50, '...') }}
+{{ tagline|stringy('lines')|first }}
 {{ someVar|string('isJson') ? 'I can haz JSON!' }}
 ```
 
