@@ -12,7 +12,7 @@
 
 ```jinja
 {{ entry.title|stringy('shuffle') }}
-{{ entry.body|stringy('truncate', 50, '...') }}
+{{ entry.body|stringy('safeTruncate', 50, '...') }}
 {{ tagline|stringy('lines')|first }}
 {{ someVar|stringy('isJson') ? 'I can haz JSON!' }}
 ```
